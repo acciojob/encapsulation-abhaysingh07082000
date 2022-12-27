@@ -2,7 +2,8 @@ package com.driver;
 
 public class RWOnly {
     private String name;
-    RWOnly(String name)
+    public RWOnly(){}
+    public RWOnly(String name)
     {
         this.name=name;
     }
